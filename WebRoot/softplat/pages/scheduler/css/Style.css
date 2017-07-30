@@ -1,0 +1,199 @@
+html,body{
+		SCROLLBAR-FACE-COLOR: #91C0E9; 
+		SCROLLBAR-HIGHLIGHT-COLOR: #E2E9F6; 
+		SCROLLBAR-SHADOW-COLOR: #294A7A; 
+		SCROLLBAR-3DLIGHT-COLOR: #5B68B1; 
+		SCROLLBAR-ARROW-COLOR: #294A7A; 
+		SCROLLBAR-TRACK-COLOR: #E2E9F6; 
+		SCROLLBAR-DARKSHADOW-COLOR: #ffffff; 
+}
+body {
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	margin-left: 13px;
+	margin-top: 0px;
+	margin-right:20px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+	font-weight: normal;
+}
+.main_button {  
+	font-family:  Verdana, Arial, "宋体"; 
+	font-size: 12px; color: #000000; 
+	height: 35px; width: 100%; 
+	padding-top: 0px; 
+	padding-right: 0px; 
+	padding-bottom: 0px; 
+	padding-left: 0px; 
+	border-top-width: 0px; 
+	border-right-width: 0px; 
+	border-bottom-width: 0px; 
+	border-left-width: 0px}
+	
+.main_label_td { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px; color: #000000; 
+	height: 25px; padding-top: 2px; padding-right: 3px; 
+	padding-left: 5px; 
+	border: 0px #E8E8E8 none; 
+	padding-bottom: 2px}
+.main_label_outline {
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	background-color: #f4f4f4;
+	padding: 10px;
+	margin: 0px;
+	border: 1px solid #b9b9b9;
+}
+
+.button_large {
+	background-image: url(images/button/button_normal.gif);
+	background-repeat: no-repeat;
+	height: 21px;
+	width: 68px;
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	padding-top: 2px;
+	border-style: none;
+	padding-left: 1px;
+}
+
+.button_normal {
+	background-image: url(images/button/button_small.gif);
+	background-repeat: no-repeat;
+	height: 21px;
+	width: 48px;
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	padding-top: 2px;
+	border-style: none;
+	padding-left: 1px;
+}
+
+.button_table {
+	font-family:  Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	height: 21px;
+	border-style: none;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	padding: 0px;
+}
+.icon_table {  font-family:Verdana, Arial, "宋体"; font-size: 12px; color: #000000; height: 22px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+.page_number {  font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; font-size: 11px; color: #000000; padding-top: 2px; padding-right: 2px}
+.icon_td {  height: 22px; width: 24px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-style: none; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+.button_td {
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	clip:   rect(   );
+	width: 72px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	padding: 0px;
+}
+
+
+
+.checkbox {  height: 13px; width: 13px; margin-top: 0px; margin-right: 0px; margin-bottom: 1px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-style: none; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; cursor: hand}
+
+.input_goto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	height: 18px;
+	text-align: right;
+}
+.input_text {
+
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+}
+
+/*****************************lcx add********************/
+table.NEUDwListTableback {
+	background-color:#f4f4f4;
+}
+th.NEUDwListTH {
+    cursor: hand; align:left;
+	background-image: url(images/titlebar_bg.gif);
+}
+
+font.NEUDwListDodyFont{
+	font-size: 9pt;
+	font-weight: normal;
+}
+<!-- --------------------- 奇数行中元素背景颜色的定义  ---------------------------- -->
+.NEUDwListRowBgColor1{
+	background-color: #FFFFFF;
+}
+<!-- ---------------------  偶数行中元素背景颜色的定义  ---------------------------- -->
+.NEUDwListRowBgColor2{
+	background-color: #f4f4f4;
+}
+.TaskListRowBgColor1{
+	background-color: #dfe4e8  ;
+}
+.NEUHTCInput {
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+}
+<!-- ----------------分页器的样式 ---------------- -->
+.NEUDwButton_FirstPage{BACKGROUND-COLOR: transparent; cursor:hand;background-image: url(images/page/first.gif);border:0;font-size:9pt;width:22px;height:22px;}
+.NEUDwButton_FirstPage_Disable{BACKGROUND-COLOR: transparent;background-image: url(images/page/first_disabled.gif);border:0;font-size:9pt;width:22px;height:22px;}
+.NEUDwButton_PreviousPage{ BACKGROUND-COLOR: transparent;cursor:hand;background-image: url(images/page/lase.gif);border:0;font-size:9pt;width:22px;height:22px;}
+.NEUDwButton_PreviousPage_Disable{ BACKGROUND-COLOR: transparent;background-image: url(images/page/lase_disabled.gif);border:0;font-size:9pt;width:22px;height:22px;}
+.NEUDwButton_NextPage{ BACKGROUND-COLOR: transparent;cursor:hand;background-image: url(images/page/next.gif);border:0;font-size:9pt;width:22px;height:22px;}
+.NEUDwButton_NextPage_Disable{ BACKGROUND-COLOR: transparent;background-image: url(images/page/next_disabled.gif);border:0;font-size:9pt;width:22px;height:22px;}
+.NEUDwButton_LastPage{ BACKGROUND-COLOR: transparent;cursor:hand;background-image: url(images/page/bottom.gif);border:0;font-size:9pt;width:22px;height:22px;}
+.NEUDwButton_LastPage_Disable{ BACKGROUND-COLOR: transparent;background-image: url(images/page/bottom_disabled.gif);border:0;font-size:9pt;width:22px;height:22px;}
+.NEUDwButton_Refresh{ BACKGROUND-COLOR: transparent;cursor:hand;background-image: url(images/page/DataWindow_buttonA.gif);border:0;font-size:9pt;width:55px;height:19px;}
+.NEUDwButton_GoPage{ BACKGROUND-COLOR: transparent;cursor:hand;background-image: url(images/page/go_page.gif);border:0;font-size:9pt;width:22px;height:22px;}
+.NEUDwButton_GoPage_Diabled{ BACKGROUND-COLOR: transparent;background-image: url(images/page/go_page_disabled.gif);border:0;font-size:9pt;width:22px;height:22px;}
+input {BACKGROUND-COLOR: #FFFFFF; BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 1px; PADDING-LEFT: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10.5pt; FONT-FAMILY: "宋体, Arial, Helvetica"; BORDER-LEFT-COLOR: #cccccc; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #cccccc; PADDING-BOTTOM: 1px; BORDER-TOP-COLOR: #cccccc; PADDING-TOP: 1px; HEIGHT: 20px; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #cccccc;}
+.input2 {BACKGROUND-COLOR: transparent; BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 10.5pt; FONT-FAMILY: "宋体, Arial, Helvetica"; BORDER-LEFT-COLOR: #cccccc; BORDER-BOTTOM-WIDTH: 0px; BORDER-BOTTOM-COLOR: #cccccc; PADDING-BOTTOM: 0px; BORDER-TOP-COLOR: #cccccc; PADDING-TOP: 0px;width: 180px; HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px; BORDER-RIGHT-COLOR: #cccccc;}
+
+.radio{  
+	height: 13px; 
+	width: 13px; 
+	margin-top: 0px; 
+	margin-right: 0px; 
+	margin-bottom: 0px; 
+	margin-left: 0px; 
+	padding-top: 1px; 
+	padding-right: 1px; 
+	padding-bottom: 1px; 
+	padding-left: 1px; 
+	border-style: none; 
+	border-top-width: 1px; 
+	border-right-width: 1px; 
+	border-bottom-width: 1px; 
+	border-left-width: 1px;
+	background-color: transparent;
+	cursor: hand}
+	
+.taskTable{
+	
+	margin-top: 5px; 
+	margin-right: 0px; 
+	margin-bottom: 0px; 
+	margin-left: 10px; 
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	background-color: #f4f4f4;
+	padding: 10px;
+	
+	border: 2px solid #b9b9b9;
+	}

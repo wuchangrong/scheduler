@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jobs>
+ <!-- <job class="test.TestJob" name="测试任务">
+     <param key="Job1_savePositon" type="text" label="job1位置" default="job1"></param>
+     <param key="Job1_saveType" type="checkbox" label="job1类型" value="测试,开发,出差,检验" default="开发,检验"></param>
+     <param key="Job1_sex" type="radio" label="性别" value="男,女" default="女"></param>
+ </job> -->
+ <job class="com.universe.softplat.scheduler.job.ProcedureJob" name="存储过程">
+     <param key="dataSourceName" type="text" label="数据源名称" default="" desc="连接池方式,为当前容器提供的数据源"></param>
+     <param key="driverName" type="text" label="JDBC驱动" default="com.ibm.db2.jcc.DB2Driver" desc="直连数据库方式"></param>
+     <param key="url" type="text" label="JDBC连接串" default="" desc="示例:jdbc:db2://ipaddress:50000/SZTRPDB:currentSchema=TRP;currentFunctionPath=ORAFUN,SYSIBM,SYSFUN,TRP;"></param>
+     <param key="userName" type="text" label="用户名" default="" desc="数据库用户名"></param>
+     <param key="password" type="text" label="密码" default="" desc="数据库密码"></param>
+     <param key="procName" type="text" label="调用过程SQL" default="call ()" desc="示例:call procName(1,'abc',?)"></param>         
+     <param key="singleVerifyExp_p" type="text" label="判定表达式" default="" desc=""></param>
+ </job>
+ <job class="com.universe.softplat.scheduler.job.SQLJob" name="一组SQL">
+     <param key="dataSourceName_s" type="text" label="数据源名称" default="" desc="连接池方式,为当前容器提供的数据源"></param>
+     <param key="driverName_s" type="text" label="JDBC驱动" default="com.ibm.db2.jcc.DB2Driver" desc="直连数据库方式"></param>
+     <param key="url_s" type="text" label="JDBC连接串" default="" desc="示例:jdbc:db2://ipaddress:50000/SZTRPDB:currentSchema=TRP;currentFunctionPath=ORAFUN,SYSIBM,SYSFUN,TRP;"></param>
+     <param key="userName_s" type="text" label="用户名" default="" desc="数据库用户名"></param>
+     <param key="password_s" type="text" label="密码" default="" desc="数据库密码"></param>
+     <param key="sqlText" type="textArea" label="执行SQL" default="" desc="分号(;)分割多条SQL语句"></param>
+ </job> 
+ <job class="com.universe.softplat.scheduler.job.WebServiceJob" name="WebService调用">
+     <param key="endpoint_w" type="text" label="服务地址" default="http://" desc="http://ip:port/servicePath"></param>
+     <param key="operationName_w" type="text" label="操作名" default="" desc=""></param>
+     <param key="rpcUserName_w" type="text" label="RPC用户名" default="" desc="WebService安全验证"></param>
+     <param key="rpcPassword_w" type="text" label="RPC密码" default="" desc="WebService安全验证"></param>     
+     <param key="inputParamValues" type="text" label="输入参数(;分割)" default=""></param>
+     <param key="singleVerifyExp_w" type="text" label="判定表达式" default="" desc=""></param>     
+ </job>
+ <!-- job class="com.universe.softplat.scheduler.job.DXPJob" name="DXP任务">
+     <param key="endpoint" type="text" label="服务地址" default="http://ipaddress:port/dxservice/svcs/TaskEngineService" desc="http://ip:port/dxpServiceName/svcs/TaskEngineService"></param>
+     <param key="operationName" type="text" label="操作名" default="startByName" desc="startByName"></param>
+     <param key="rpcUserName" type="text" label="RPC用户名" default="admin" desc="DXP调用安全验证"></param>
+     <param key="rpcPassword" type="text" label="RPC密码" default="1" desc="DXP调用安全验证"></param>     
+     <param key="DXPTaskName" type="text" label="DXP任务名" default=""></param>
+     <param key="DXPRunType" type="radio" label="调用方式" value="SYNC 同步,ASYNC 异步" default="SYNC 同步"></param>
+     <param key="singleVerifyExp_d" type="text" label="判定表达式" default="" desc=""></param>
+ </job -->
+ <!--<job class="com.universe.softplat.scheduler.job.ProxyJob" name="自定义任务">
+     <param key="jobClassName" type="text" label="Job类名" default=""></param>
+     <param key="JOB_PARAM" type="text" label="Job参数" default=""></param>    
+ </job>-->
+</jobs>

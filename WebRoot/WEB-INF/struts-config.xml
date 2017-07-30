@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" " http://struts.apache.org/dtds/struts-config_1_2.dtd"> 
+<struts-config>
+    <action-mappings>
+    	<!--登录设置-->
+    	<action path="/Scheduler-RootMenu" forward="/softplat/pages/sample/RootMenu.jsp"/>        
+        <action path="/login" forward="/softplat/pages/sample/login.jsp" />
+		<action path="/Scheduler-CheckLogin" type="com.universe.softplat.sample.LoginAction" scope="request" validate="false" parameter="method">
+	      <forward name="success" path="/softplat/pages/sample/entry.jsp" />
+	      <forward name="false" path="/softplat/pages/sample/login.jsp" />
+	    </action>     
+    	<!-- 调度 -->
+	    <action path="/Scheduler-SchedulerOperator" type="com.universe.softplat.scheduler.action.OperatorAction" scope="request" validate="false" parameter="method">
+		    <forward name="TaskPage" path="/softplat/pages/scheduler/TaskPage.jsp" />
+		    <forward name="displaTasks" path="/displaTasks.do?method=displayTasks" />
+	    </action>
+	    <action path="/displaTasks" type="com.universe.softplat.scheduler.action.GetTasksAction" parameter="method" scope="request" validate="false">
+        	<forward name="displayTasks" path="/softplat/pages/scheduler/DisplayTasks.jsp" />
+        	<forward name="displayLogs" path="/softplat/pages/scheduler/DisplayLogs.jsp" />
+      	</action>
+      	<action path="/defineCron" forward="/softplat/pages/scheduler/defineCron.jsp"/>
+    </action-mappings>
+    <message-resources  key="softplat_schedular_resource" parameter="softplat_schedular_resource"/>
+</struts-config>

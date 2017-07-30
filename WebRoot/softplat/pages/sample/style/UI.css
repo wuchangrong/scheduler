@@ -1,0 +1,219 @@
+.login_bg {
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	background-image: url(images/login_bg.png);
+	background-repeat: no-repeat;
+}
+A.link_tab_14_bl:link {
+	COLOR: #005fb9; TEXT-DECORATION: none;font-family: Verdana, Arial, "宋体"; font-size: 14px;
+}
+
+
+A.link_tab_14_bl:visited {
+	COLOR: #005fb9; TEXT-DECORATION: none;font-family:  Verdana, Arial, "宋体"; font-size: 14px;
+}
+A.link_tab_14_bl:active {
+	TEXT-DECORATION: none; font-family:  Verdana, Arial, "宋体"; font-size: 14px;
+}
+A.link_tab_14_bl:hover {
+	COLOR: #005fb9; TEXT-DECORATION: underline;font-family:  Verdana, Arial, "宋体"; font-size: 14px;
+}
+
+A.link_tab_unchecked_bk:link {
+	COLOR: #ffffff; TEXT-DECORATION: none;font-family: Verdana, Arial, "宋体"; font-size: 12px;
+}
+
+
+A.link_tab_unchecked_bk:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none;font-family:  Verdana, Arial, "宋体"; font-size: 12px;
+}
+A.link_tab_unchecked_bk:active {
+	TEXT-DECORATION: none; font-family:  Verdana, Arial, "宋体"; font-size: 12px;
+}
+A.link_tab_unchecked_bk:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline;font-family:  Verdana, Arial, "宋体"; font-size: 12px;
+}
+
+
+A.link_onionskin_12_gray:link {
+	COLOR: #7f7f7f; TEXT-DECORATION: underline;font-family:  Verdana, Arial, "宋体"; font-size: 12px;
+}
+A.link_onionskin_12_gray:visited {
+	COLOR: #7f7f7f; TEXT-DECORATION: underline;font-family: Verdana, Arial, "宋体"; font-size: 12px;
+}
+
+
+A.link_onionskin_12_gray:active {
+	TEXT-DECORATION: none; font-family:  Verdana, Arial, "宋体"; font-size: 12px;
+}
+A.link_onionskin_12_gray:hover {
+	COLOR: #000000; TEXT-DECORATION: none;font-family: Verdana, Arial, "宋体"; font-size: 12px;
+}
+
+body {
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFFFFF;
+	font-weight: normal;
+	margin: 0px;
+}
+.head_bg_blue {
+	background-image: url(images/head_bg_blue.png);
+	background-repeat: no-repeat;
+}
+.head_tab_unchecked {
+	width: 80px;
+	text-align: center;
+	font-family: Verdana, Arial, "宋体";
+	color: #FFFFFF;
+	padding-top: 7px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.head_tab_checked {
+	background-image: url(images/tab/head_checked.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	width: 80px;
+	text-align: center;
+	padding-top: 7px;
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+}
+.table_base {
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+}
+.Text_12_bk_B {
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.button_login {
+background-image: url(images/button/button_login.gif); background-repeat: no-repeat; height: 22px; width: 72px; font-family: "宋体"; font-size: 12px; color: #000000; padding-top: 2px; border-style: none; padding-left: 1px
+}
+.input_login {
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	width: 150px;
+}
+.Text_12_wt {
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.Text_12_bl_underline {
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #0000FF;
+	text-decoration: underline;
+}
+
+.Text_12_red {
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #FF0000;
+}
+.button_normal {
+	background-image: url(images/button/button_normal.gif);
+	background-repeat: no-repeat;
+	height: 21px;
+	width: 68px;
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	padding-top: 2px;
+	border-style: none;
+	padding-left: 1px;
+}
+.button_table {
+	font-family:  Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	height: 21px;
+	border-style: none;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	padding: 0px;
+}
+.icon_table {  font-family:Verdana, Arial, "宋体"; font-size: 12px; color: #000000; height: 22px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+.page_number {  font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; font-size: 11px; color: #000000; padding-top: 2px; padding-right: 2px}
+.rodio {  height: 13px; width: 13px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-style: none; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; cursor: hand}
+.checkbox {  height: 13px; width: 13px; margin-top: 0px; margin-right: 0px; margin-bottom: 1px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-style: none; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; cursor: hand}
+.sign_red {  font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; font-size: 9px; color: #FF0000}
+.space_1px {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+}
+.warn_bg {
+	font-family: Verdana, Arial, "宋体";
+	color: #000000;
+	background-image: url(images/warn_bg.gif);
+	background-repeat: no-repeat;
+}
+.input_goto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	height: 18px;
+	text-align: right;
+}
+.input_text {
+
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+}
+.head_bg1 {
+	background-image: url(images/head_bg1.png);
+	background-repeat: no-repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.body {
+	margin-left: 0px;
+	margin-right: 0px;
+	background-image: url(images/head_bg2.png);
+	background-repeat: repeat-x;
+}
+.head_bg3 {
+	background-image: url(images/head_bg3.png);
+	background-repeat: no-repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-position: top;
+	height: 66px;
+	width: 326px;
+}
+.tab1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	background-image: url(images/tab/tab1.png);
+	background-repeat: no-repeat;
+	height: 33px;
+	width: 92px;
+	padding-top: 3px;
+}
+.tab2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #005fb9;
+	background-image: url(images/tab/tab2.png);
+	background-repeat: no-repeat;
+	height: 33px;
+	width: 92px;
+	padding-top: 3px;
+}

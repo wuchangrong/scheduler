@@ -1,0 +1,46 @@
+body { font-size; font-size: 12px: 12px; line-height: 18px}
+table { font-size:12px; color: #000000; line-height: 18px}
+a { font-size: 12px; color: #000000; line-height: 18px; text-decoration: none}
+a:hover { color: #CCFF33; text-decoration: none} 
+.cn_12px { font-family: "宋体"; font-size: 12px; text-decoration: none} 
+.cn_12px_v20 {  font-family: "宋体"; font-size: 12px; line-height: 18px; text-decoration: none}
+.news_titel {  font-family: "宋体"; font-size: 24px; font-weight: bold; text-decoration: none; color: #CC0000; line-height: 18px}
+.news_titel_fu {  font-family: "宋体"; font-size: 16px; font-weight: bold; color: #999999; text-decoration: none; line-height: normal}
+.news_text {  font-family: "宋体"; font-size: 14px; line-height: 22px; text-decoration: none}
+.en_12px {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; text-decoration: none}
+.cn_12px_white {  font-family: "宋体"; font-size: 12px; color: #535353; text-decoration: none; line-height: 23px}
+.cn_14px_v20 { font-family: "宋体"; font-size: 14px; line-height: 18px; text-decoration: none }
+.cn_12px_hu3 { font-family: "宋体"; font-size: 12px; text-decoration: none ; color: #999999}
+.tablestyle {font-family: "宋体"; font-size: 12px; color: #e2e2e2; text-decoration: none}
+.bgbar {  background-image: url( ../files/bgbar.gif); background-repeat: repeat-x; height: 19px}
+.T_song12g {  font-family: "宋体"; font-size: 12px; color: #445492; text-decoration: none; font-weight: bold}
+
+.ltdstyle {font-family: "宋体"; font-size: 12px; background-color: #FFFFFF}
+.ltdfocusstyle {font-family: "宋体"; font-size: 12px; background-color: #0a246a}
+.lastyle {font-family: "宋体"; font-size: 12px; color: #000000}
+.lafocusstyle {font-family: "宋体"; font-size: 12px; color: #FFFFFF}
+
+.login_bg {
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	background-image: url(images/login_bg.png);
+	background-repeat: no-repeat;
+}
+.input_login {
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	width: 150px;
+}
+.Text_12_bk_B {
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.Text_12_wt {
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+}
